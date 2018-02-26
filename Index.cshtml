@@ -1,0 +1,14 @@
+﻿@model tryingmvc.Models.Products
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Product Details</h2>
+
+<b>Product ID</b> @Model.ProductID <br />
+<b>Product Name</b> @Model.ProductName <br />
+<b>Product Price</b> @Model.Price <br />
+<b>Product Quantity</b> @Model.Quantity <br />
